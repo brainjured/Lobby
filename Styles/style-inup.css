@@ -1,0 +1,57 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	height: 90vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Consolas';
+	color: rgb(240, 240, 240);
+	background-color: rgb(50, 50, 50);
+}
+form {
+	display: flex;
+	flex-direction: column;
+	width: 310px;
+}
+a {
+	color: #6ff;
+	text-decoration: none;
+}
+p {
+	margin: 10px 0;
+}
+input{
+	margin: 10px 0;
+	padding: 7px;
+	border: unset;
+	border-bottom: 2px solid grey;
+	outline: none;
+	background-color: rgb(50, 50, 50);
+	font-family: 'Consolas';
+	color: rgb(200, 200, 200);
+}
+button{
+	padding: 7px;
+	background: #f66;
+	border-color: rgb(139, 56, 56);
+	border-radius: 10px;
+	cursor: pointer;
+	font-family: 'Consolas';
+}
+.msg{
+	text-align: center;
+	font-weight: bold;
+	color: red;
+	text-shadow: 0 0 5px red;
+}
+.forma{
+	width: 400px;
+}
+.logout{
+	text-align: right;
+	color: red;
+}

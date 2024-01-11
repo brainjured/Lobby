@@ -1,0 +1,50 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	height: 90vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: consolas, arial;
+}
+form {
+	display: flex;
+	flex-direction: column;
+	width: 310px;
+}
+a {
+	color: darkblue;
+	text-decoration: none;
+}
+p {
+	margin: 10px 0;
+}
+input{
+	margin: 10px 0;
+	padding: 7px;
+	border: unset;
+	border-bottom: 2px solid grey;
+	outline: none;
+}
+button{
+	padding: 7px;
+	background: grey;
+	border: unset;
+	cursor: pointer;
+}
+.msg{
+	text-align: center;
+	font-weight: bold;
+	color: red;
+	text-shadow: 0 0 5px red;
+}
+.forma{
+	width: 400px;
+}
+.logout{
+	text-align: right;
+	color: red;
+}
